@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furni</title>
+    <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+  <!-- header/navbar  -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-main border-bottom border-secondary">
+
+        <div class="container d-flex justify-content-between align-items-center gap-5 " data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="800">
+            <a class=" navbar-brand fs-1 fw-bold text-light " href="./index.html">Furni.</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+      
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0 gap-4">
+                  <li class="nav-item">
+                    <a class="nav-link hover active fw-semibold text-light" aria-current="page" href="./index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link hover fw-semibold " href="./shop.html">Shop</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link hover fw-semibold" href="./about.html">About Us</a>
+                  </li>
+                  
+                  <li class="nav-item">
+                    <a class="nav-link hover fw-semibold" href="./service.html">Services</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link hover fw-semibold" href="./cotact.html">Contact Us</a>
+                  </li>
+                </ul>
+            </div>
+
+            <div>
+                <a href="" class="navbar-brand fs-3 fw-semibold text-light"><i class='bx bx-user'></i></a>
+                <a href="" class="navbar-brand fs-3 fw-semibold text-light"><i class='bx bx-cart'></i></a>
+            </div>
+        </div>
+  </nav>
+
+  <!-- hero section -->
+  <section class="container-fluid pt-5 bg-main">
+    <div class="container d-flex justify-content-between align-items-center gap-5">
+      <div class="w-75" data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1200">
+        <h1 class="text-light">Modern Interior Design Studio</h1>
+        <p class="text-white-50 my-5">A modern interior design studio creates stylish, functional spaces with clean lines and curated materials. It blends innovation with comfort to reflect contemporary lifestyles. Each project is a unique expression of elegance, simplicity, and thoughtful design.</p>
+        <button type="button" class="btn btn-primary rounded-pill px-4 fw-bold me-3">Shop Now</button>
+        <button type="button" class="btn btn-outline rounded-pill px-4 fw-bold">Explore</button>
+      </div>
+      
+      <div class=" w-100" data-aos="fade-left"
+     data-aos-easing="linear"
+     data-aos-duration="1200">
+        <img src="./assets/couch.png" alt="image" class="img-fluid">
+      </div>
+    </div>
+  </section>
+
+  <!-- featured section -->
+  <section class="container-fluid mt-5 py-3 w-100">
+    <div class="container d-flex justify-content-center align-items-center gap-4 mt-5 " data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="1200">
+      <div class="w-25">
+        <h2 class="text-color">Crafted with excellent material</h2>
+        <p class="my-4 text-secondary">Crafted with excellent materials, our designs embody strength, elegance, and lasting quality. </p>
+        <button type="button" class="btn btn-main rounded-pill px-4 fw-bold">Explore</button>
+      </div>
+
+      <div class="w-75 d-flex justify-content-center align-items-center gap-3">
+        <!-- product 1 -->
+        <div class="product-card text-center">
+          <div class="product-img">
+             <img src="./assets/product-1.png" class="img-fluid" alt="Nordic Chair">
+          </div>
+          <div class="card-body">
+            <h5 class="fw-semibold">Nordic Chair</h5>
+            <p class="fw-bold text-dark">$50.00</p>
+          </div>
+          <div class=" d-flex justify-content-center align-items-center add-btn">
+            <i class="fa-solid fa-plus"></i>
+          </div>
+        </div>
+
+        <!-- product 2 -->
+         <div class="product-card text-center">
+          <div class="product-img">
+             <img src="./assets/product-2.png" class="img-fluid" alt="Kruzo Aero Chair">
+          </div>
+          <div class="card-body">
+            <h5 class="fw-semibold">Kruzo Aero Chair</h5>
+            <p class="fw-bold text-dark">$78.00</p>
+          </div>
+          <div class=" d-flex justify-content-center align-items-center add-btn">
+            <i class="fa-solid fa-plus"></i>
+          </div>
+        </div>
+
+        <!-- product 3 -->
+        <div class="product-card text-center">
+          <div class="product-img">
+             <img src="./assets/product-3.png" class="img-fluid" alt="Ergonomic Chair">
+          </div>
+          <div class="card-body">
+            <h5 class="fw-semibold">Ergonomic Chair</h5>
+            <p class="fw-bold text-dark">$43.00</p>
+          </div>
+          <div class=" d-flex justify-content-center align-items-center add-btn">
+            <i class="fa-solid fa-plus"></i>
+          </div>
+        </div> 
+
+      </div>
+    </div>
+  </section>
+
+  <!-- why chose us section -->
+  <section class="container-fluid my-5 ">
+      <div class="container d-flex justify-content-between align-items-center gap-5">
+        <div class="w-50" data-aos="fade-right"
+     data-aos-easing="linear"
+     data-aos-duration="1200"> 
+                <h2 class="text-color">Why Choose Us</h2>
+                <p class="fs-0 text-secondary my-4">We design modern interiors that balance elegance, comfort, and functionality.  
+                With premium materials and personalized touches, every space reflects your unique style.  
+                Choose us for thoughtful design and timeless results that elevate everyday living.</p>
+                <div class="d-flex justify-content-center align-items-center gap-5">
+                    <div>
+                        <div class="icon-bg fs-3 mb-2 d-inline-flex rounded-circle px-1 py-2"><i class="fa-regular fa-truck"></i></div>
+                        <p>Fast & Free Shipping</p>
+                        <p class="fs-0 text-secondary">Enjoy fast and free shipping on every order—delivered swiftly, without extra cost.</p>
+                    </div>
+
+                    <div>
+                        <div class="icon-bg fs-3 mb-2 d-inline-flex rounded-circle px-2 py-1"><i class="ri-shopping-bag-3-line"></i></div>
+                        <p>Easy to Shop</p>
+                        <p class="fs-0 text-secondary">Shopping made simple—intuitive design and seamless navigation for a hassle-free experience.<p>
+                    </div>
+
+                </div>    
+
+                <div class="d-flex justify-content-center align-items-center gap-5">
+                    <div>
+                        <div class="icon-bg fs-3 mb-2 d-inline-flex rounded-circle px-2 py-1"><i class="ri-customer-service-line"></i></div>
+                        <p>24/7 Support</p>
+                        <p class="fs-0 text-secondary">Our 24/7 support ensures expert help is always just a message away—day or night.</p>
+                    </div>
+
+                    <div>
+                        <div class="icon-bg fs-3 mb-2 d-inline-flex rounded-circle px-2 py-1"><i class="ri-refund-2-line"></i></div>
+                        <p>Hassle Free Return & Refund</p>
+                        <p class="fs-0 text-secondary">Enjoy hassle-free returns and swift refunds—designed to make your experience smooth and worry-free.</p>
+                </div>
+                
+        </div>
+            </div>
+            
+            <div class=" d-flex justify-content-center align-items-center w-50" data-aos="fade-left"
+     data-aos-easing="linear"
+     data-aos-duration="1200">
+                <img src="./assets/why-choose-us-img.jpg" alt="" class="img-fluid rounded-3 w-75">
+            </div>
+      </div>
+  </section>
+
+  <section class="container-fluid mt-5 py-3">
+      <div class="container d-flex justify-content-center align-items-center gap-5 mt-5 py-5">
+         <div class="w-50 d-flex gap-4 position-relative">
+                <div data-aos="fade-right"
+     data-aos-easing="linear"
+     data-aos-duration="1200">
+                  <img src="./assets/img-grid-1.jpg" alt="Main" class="img-fluid rounded-4">
+                </div>
+
+                <div class="pt-3  mb-5" data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1200">
+                  <div class="w-100 mx-auto">
+                    <img src="./assets/img-grid-2.jpg" alt="Top Right" class="img-fluid rounded-4">
+                  </div>
+                  
+                  <div class="w-50 position-absolute top-50 start-50" data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1200">
+                    <img src="./assets/img-grid-3.jpg" alt="Bottom Right" class="w-100 img-fluid rounded-4">
+                  </div>
+                </div>
+            </div>
+            <div class="w-50" data-aos="fade-left"
+     data-aos-easing="linear"
+     data-aos-duration="1200">
+                <h2 class="text-color">We Help You Make Modern Interior Design</h2>
+                <p class="text-secondary">We help you make modern interior design effortless and inspiring.  
+                Our studio blends clean aesthetics with smart functionality to create spaces that reflect your lifestyle.  
+                From concept to completion, we guide you through every detail—crafting interiors that are both stylish and livable.  
+                Let us turn your vision into a beautifully designed reality.</p>
+                <ul class="text-secondary list-unstyled mx-4 custom-list">  
+                    <li>We help you make modern interior design feel effortless combining sleek aesthetics with practical solutions tailored to your space.</li>
+                    <li>Our expert team guides you through every step, from layout planning to material selection, ensuring a cohesive and stylish result. </li>
+                    <li>Whether you're refreshing a room or building from scratch, we turn your ideas into beautifully curated interiors.</li>
+                    <li>Your vision, our expertise together we craft interiors that are modern, meaningful, and uniquely yours.</li>
+                </ul>
+                <button type="" class="btn btn-main rounded-pill px-4 fw-bold">Explore</button>
+
+            </div>
+      </div>
+  </section>
+
+  <!-- testimonials section -->
+  <section class="container-fluid mt-5 py-3">
+      <div class="container mt-5 py-5" data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="1200">
+    <h2 class="fw-bold text-center mb-5 text-color">Testimonials</h2>
+
+    <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+
+        <!-- Slide 1 -->
+        <div class="carousel-item active">
+          <p class="fs-5 text-secondary mx-auto " style="max-width: 800px;">
+            A complete transformation of our workspace. Their team redesigned our office with modern elegance and smart functionality. Productivity have noticeably improved.
+          </p>
+          <div class="w-25 mx-auto d-flex flex-column align-items-center mt-4">
+            <img src="./assets/person_4.jpg" class="rounded-circle mb-3 img-fluid w-25" alt="Maria Jones">
+            <h6 class="fw-bold mb-0">Maria Jones</h6>
+            <small class="text-muted">CEO, Co-Founder, XYZ Inc.</small>
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="carousel-item">
+          <p class="fs-5 text-secondary mx-auto" style="max-width: 800px;">
+           Stylish and efficient. They created a space that’s not only beautiful but also optimized for collaboration and comfort. Highly recommended for any business.
+          </p>
+          <div class="w-25 mx-auto d-flex flex-column align-items-center mt-4">
+            <img src="./assets/person_2.jpg" class="rounded-circle mb-3 img-fluid w-25" alt="John Smith">
+            <h6 class="fw-bold mb-0">John Smith</h6>
+            <small class="text-muted">Marketing Head, ABC Ltd.</small>
+          </div>
+        </div>
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+        <span class="bg-main border rounded-circle d-flex justify-content-center align-items-center fs-1 text-light" 
+              style="width:50px;height:50px;">
+              <i class='bx bx-chevron-left'></i>
+        </span>
+      </button>
+
+      <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+        <span class="bg-main border rounded-circle d-flex justify-content-center align-items-center fs-1 text-light" 
+              style="width:50px;height:50px;">
+          <i class='bx bx-chevron-right'></i>
+        </span>
+      </button>
+
+      <div class="carousel-indicators position-relative mt-4">
+        <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0" class="bg-success
+         active" aria-current="true"></button>
+        <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1" class="bg-success"></button>
+      </div>
+    </div>
+  </div>
+  </section>
+
+  <!-- footer -->
+  <footer class="container-fluid bg-body">
+      <div class="container">
+        <div class="d-flex justify-content-between align-items-center">
+          <div data-aos="fade-right"
+     data-aos-easing="linear"
+     data-aos-duration="1200">
+            <p class=" d-inline-flex fs-3 align-items-center gap-2 text-color fw-semibold"><i class='bx bx-envelope fs-3'></i> Subscribe to Newsletter<p>
+
+              <form action="" class="d-flex align-items-center gap-2" >
+              <div class="form-floating">
+                <input type="text" class="form-control" id="floatingInput" placeholder="Enter your name" required>
+                <label for="floatingInput">Name</label>
+              </div>
+              <div class="form-floating">
+                <input type="email" class="form-control" id="floatingPassword" placeholder="Enter your email" required>
+                <label for="floatingPassword">Email address</label>
+              </div>
+              <button class="btn btn-main fs-3 text-center" type="submit" data-bs-toggle="modal" data-bs-target="#thankYouModal">
+                <i class="ri-send-plane-fill"></i>
+              </button>
+
+              <!-- Thank You Modal -->
+              <div class="modal fade" id="thankYouModal" tabindex="-1" aria-labelledby="thankYouModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content text-center border-0 shadow-lg">
+                    <div class="modal-header border-0">
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                  
+                    <div class="modal-body px-4 pb-4">
+                      <div class="text-success mb-3">
+                        <i class="bi bi-check-circle-fill fs-1"></i>
+                      </div>
+                      <h4 class="fw-bold mb-2">Thank You!</h4>
+                      <p class="text-muted mb-4">You’ve successfully subscribed to our newsletter.<br>Stay tuned for updates and offers.</p>
+                      <button type="button" class="btn btn-success rounded-pill px-4 fw-semibold" data-bs-dismiss="modal">
+                        Got it
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </form>
+          </div>
+
+          <div class="w-25" data-aos="fade-left"
+     data-aos-easing="linear"
+     data-aos-duration="1200">
+            <img src="./assets/sofa.png" alt="" class="img-fluid">
+          </div>
+        </div>
+
+          <h1 class="text-color" data-aos="fade-right"
+     data-aos-easing="linear"
+     data-aos-duration="1200">Furni.</h1>
+        <div class="d-flex gap-3 " >
+          <div class="" data-aos="fade-right"
+     data-aos-easing="linear"
+     data-aos-duration="1200">
+            <p class="text-secondary">A modern interior design studio creates stylish, functional spaces with clean lines and curated materials. It blends innovation with comfort to reflect contemporary lifestyles. Each project is a unique expression of elegance, simplicity, and thoughtful design.</p>
+            <div class="pb-3">
+              <i class='social-icon rounded-circle p-2 fs-5 bx bxl-facebook' ></i>
+              <i class='social-icon rounded-circle p-2 fs-5 bx bxl-twitter'></i>
+              <i class='social-icon rounded-circle p-2 fs-5 bx bxl-instagram-alt'></i>
+              <i class='social-icon rounded-circle p-2 fs-5 bx bxl-linkedin'></i>
+            </div>
+          </div>
+ 
+          <div class="w-25 mx-5" data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1200">
+            <a href="" class="link-secondary text-decoration-none d-block">about</a>
+            <a href="" class="link-secondary text-decoration-none d-block">Services</a>
+            <a href="" class="link-secondary text-decoration-none d-block">Blog</a>
+            <a href="" class="link-secondary text-decoration-none d-block">Contact Us</a>
+          </div>
+
+          <div class="w-25 mx-5" data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="1400">
+            <a href="" class="link-secondary text-decoration-none d-block">Support</a>
+            <a href="" class="link-secondary text-decoration-none d-block">Knowledge Base</a>
+            <a href="" class="link-secondary text-decoration-none d-block">Live Chat</a>
+          </div>
+
+          <div class="w-25 mx-5" data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1200">
+            <a href="" class="link-secondary text-decoration-none d-block">Job</a>
+            <a href="" class="link-secondary text-decoration-none d-block">Our Team</a>
+            <a href="" class="link-secondary text-decoration-none d-block">Leadership</a>
+            <a href="" class="link-secondary text-decoration-none d-block">Privacy Policy</a>
+
+          </div>
+
+          <div class="w-75 mx-5" data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="1400">
+            <a href="" class="link-secondary text-decoration-none d-block">Nordic Chair</a>
+            <a href="" class="link-secondary text-decoration-none d-block">Kruzo Aero</a>
+            <a href="" class="link-secondary text-decoration-none d-block">Ergonomic Chair</a>
+          </div>
+        </div>
+
+        <div class="border d-flex justify-content-between text-secondary">
+          <p class="my-3 mx-3" >Copyright ©2025. All Rights Reserved. </p>
+          <p class="my-3 mx-3">Designed with ❤️ by Abdul Moid</p>
+        </div>
+      </div>
+  </footer>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+    <script src="https://kit.fontawesome.com/0108609e63.js" crossorigin="anonymous"></script>
+</html>
