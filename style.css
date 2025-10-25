@@ -116,6 +116,12 @@ body{
   transition: all 0.3s ease; 
   cursor: pointer;
 }
+@media screen and (max-width:480px) {
+  .product-card {
+    width: 100%;
+    height: 100%;
+  }
+}
 
 .product-card::after {
   content: "";
@@ -184,4 +190,8 @@ body{
   border: 3px solid #2F4F4F; 
   border-radius: 50%;
   background: transparent; 
+}
+
+.navbar-toggler{
+  border: 1px solid #fff;
 }
